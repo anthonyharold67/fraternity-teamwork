@@ -2,7 +2,7 @@ import './App.css';
 import AuthContextProvider from './context/AuthContext';
 import ProductContextProvider from './context/ProductContext';
 import AppRouter from './router/AppRouter'
-import { ToastContainer } from "react-toastify";
+// import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <AuthContextProvider>
       <ProductContextProvider>
         <AppRouter/>
-        <ToastContainer />
+        {/* <ToastContainer /> */}
       </ProductContextProvider>
       </AuthContextProvider>
 
