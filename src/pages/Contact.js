@@ -75,7 +75,7 @@ const Contact = () => {
           <div className={styles.cardBody}>
             <h3 className={styles.cardText}>Bora Güneş</h3>
             <div sx={{display:"flex",height:"auto"}}>
-            <Grid item xs={4}> <a href="#" target="_blank" rel="noopener noreferrer" style={{color:'white',fontSize:25}}> <LinkedInIcon/> </a>
+            <Grid item xs={4}> <a href="https://github.com/gunesbora" target="_blank" rel="noopener noreferrer" style={{color:'white',fontSize:25}}> <LinkedInIcon/> </a>
             <a href="https://github.com/gunesbora" target="_blank" rel="noopener noreferrer" style={{color:'white',fontSize:25}}> <GitHubIcon  /> </a> 
              <a href="mailto:gunesbora80@gmail.com" target="_blank" rel="noopener noreferrer" style={{color:'white',fontSize:25}}> <GoogleIcon /> </a> </Grid>
             </div>

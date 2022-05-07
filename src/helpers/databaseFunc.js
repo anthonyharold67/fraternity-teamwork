@@ -1,4 +1,6 @@
+// eslint-disable-next-line
 import firebase from './firebase';
+
 import React from 'react';
 import { getDatabase,ref,push,set,onValue, remove,update } from "firebase/database";
 

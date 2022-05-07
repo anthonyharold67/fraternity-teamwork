@@ -26,7 +26,7 @@ const ProductContextProvider = (props) => {
     },[]) 
 
     return(
-        <ProductContext.Provider value={{card,setCard,adress,setAdress,productList,setDetails,details,basket,setBasket,count,setCount,myArray,setMyArray,userBasket,basketList}}>
+        <ProductContext.Provider value={{card,setCard,setUserBasket,adress,setAdress,productList,setDetails,details,basket,setBasket,count,setCount,myArray,setMyArray,userBasket,basketList}}>
             {props.children}
         </ProductContext.Provider>
     )
