@@ -7,7 +7,7 @@ import { toastWarnNotify } from '../helpers/toastNotify';
 const PrivateRouter = ()=>{
     const {currentUser} = useContext(AuthContext)
     if(!currentUser){
-        toastWarnNotify("Please Login First")
+        toastWarnNotify("Please login to access this page")
         return (
         <Navigate to="/login" />
         
