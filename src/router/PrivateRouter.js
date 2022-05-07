@@ -2,12 +2,12 @@ import React from 'react';
 import { useContext } from 'react';
 import { Navigate, Outlet } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
-import { toastWarnNotify } from '../helpers/toastNotify';
+// import { toastWarnNotify } from '../helpers/toastNotify';
 
 const PrivateRouter = ()=>{
     const {currentUser} = useContext(AuthContext)
     if(!currentUser){
-        toastWarnNotify("Please login to access this page")
+        // toastWarnNotify("Please login to access this page")
         return (
         <Navigate to="/login" />
         
